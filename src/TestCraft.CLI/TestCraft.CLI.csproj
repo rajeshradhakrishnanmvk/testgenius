@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TestCraft.Execution\TestCraft.Execution.csproj" />
+    <ProjectReference Include="..\TestCraft.Core\TestCraft.Core.csproj" />
+    <ProjectReference Include="..\TestCraft.AI\TestCraft.AI.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.CommandLine" Version="1.0.0.4" />
+  </ItemGroup>
+
+</Project>
